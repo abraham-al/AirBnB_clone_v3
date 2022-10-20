@@ -6,7 +6,7 @@ all default RESTFul API actions.
 
 
 from api.v1.views import app_views
-from web_flask import Flask, jsonify, abort, request, make_response
+from flask import Flask, jsonify, abort, request, make_response
 from models import storage
 from models.amenity import Amenity
 
